@@ -25,7 +25,7 @@ const sizes = {
 
 const theme = {
   colors: {
-    grayBlack: '#1C1C1C',
+    grayBlack: '#010101',
     greyDark1: '#0A0A0A',
     greyDark2: '#0E0E0E',
     greyDark3: '#161616',
