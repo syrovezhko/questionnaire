@@ -8,7 +8,7 @@ const GeneralText = styled.p`
   font-weight: 500;
   line-height: 2rem;
   height: 100%;
-  color: ${(props) => props.theme.colors.greyLight};
+  color: ${(props) => props.color};
 `;
 
 const SmallText = styled(GeneralText)`
