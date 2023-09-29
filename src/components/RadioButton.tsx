@@ -30,8 +30,8 @@ const RadioOff = styled.input`
   }
 `;
 
-const RadioButton = () => {
-  return <RadioOff type="radio"></RadioOff>;
+const RadioButton = (props) => {
+  return <RadioOff type="radio" id={`radio_${props.id}`} value={`radio_${props.id}`}></RadioOff>;
 };
 
 export default RadioButton;

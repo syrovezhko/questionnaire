@@ -34,7 +34,7 @@ const ButtonText = styled(LabelText)`
 const Text = (props) => {
   if (props.type === 'small') return <SmallText {...props} />;
   else if (props.type === 'large') return <LargeText {...props} />;
-  else if (props.type === 'label') return <LabelText {...props} />;
+  else if (props.type === 'label') return <LabelText for={`radio_${props.id}`} {...props} />;
   else if (props.type === 'button') return <ButtonText {...props} />;
   else return <GeneralText {...props} />;
 };
